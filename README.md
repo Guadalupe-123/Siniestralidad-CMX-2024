@@ -33,13 +33,23 @@ Los **KPI** se publican en la carpeta `outputs/` y alimentan el dashboard.
 
 ## Resumen de KPIs (completa con tus cifras)
 
-- **Incidentes totales 2024:** <total> · **Tasa por 100k hab.:** <tasa>
-- **Severidad:** lesionados <n> · fallecidos <n> · índice de severidad <valor>
-- **Horas pico:** % en 7–10h: <x>% · % en 17–20h: <y>%
-- **Alcaldías (Top 5 por casos/tasa):** <A>, <B>, <C>, <D>, <E>
-- **Tipos de evento (Pareto):** <tipo1> <p1>% · <tipo2> <p2>% · <tipo3> <p3>%
+**Periodo cubierto por los datos:** 2019–2023 (último año disponible: **2023**)
 
-> Tip: estos valores salen directo de `kpi_*` y `ranking_alcaldia.csv`.
+**Versión ejecutiva (2023):**  
+En **2023** se registraron **29,033 incidentes** con **34,024 lesionados** y **472 fallecidos**, lo que da un **índice de severidad** de **1.19** [(lesionados+fallecidos)/incidentes]. La **actividad en horas pico** concentró en promedio el **28.62%** de los eventos (máximo en **MILPA ALTA: 35.39%**). Por carga de incidentes en 2023, las alcaldías con mayor volumen fueron **CUAUHTEMOC (4,331)**, **IZTAPALAPA (4,124)**, **GUSTAVO A MADERO (3,395)**, **BENITO JUAREZ (2,272)** y **VENUSTIANO CARRANZA (2,165)**. Por **tipo de evento**, el Pareto muestra que **CHOQUE** explica **57.49%**, seguido de **DERRAPADO (19.26%)** y **ATROPELLADO (17.55%)**.
+
+**Detalle (2023):**
+- Incidentes: **29,033**  
+- Lesionados: **34,024** · Fallecidos: **472**  
+- Índice de severidad ( (lesionados+fallecidos)/incidentes ): **1.19**  
+- Horas pico (prom. CDMX): **28.62%**  
+  - Top 3 horas pico por alcaldía: **MILPA ALTA (35.39%)**, **IZTAPALAPA (33.21%)**, **MAGDALENA CONTRERAS (32.92%)**  
+- Top 5 alcaldías por incidentes (2023):  
+  **CUAUHTEMOC (4,331)** · **IZTAPALAPA (4,124)** · **GUSTAVO A MADERO (3,395)** · **BENITO JUAREZ (2,272)** · **VENUSTIANO CARRANZA (2,165)**
+- Pareto por tipo de evento (acumulado): **CHOQUE 57.49%** · **DERRAPADO 19.26%** · **ATROPELLADO 17.55%**
+
+**Contexto de serie (2019–2023):**  
+Total acumulado **2019–2023**: **117,051 incidentes**. El índice de severidad promedio del periodo es **1.18**.
 
 ## Notas
 
